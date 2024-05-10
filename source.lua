@@ -1,8 +1,8 @@
-if not game.Players.LocalPlayer.PlayerGui:FindFirstChild("Atom") then
-	game.Players.LocalPlayer.PlayerGui:WaitForChild("Atom"):Destroy()
+if not game.CoreGui:FindFirstChild("Atom") then
+	game.CoreGui:WaitForChild("Atom"):Destroy()
 end
 
-local Gui = Instance.new("ScreenGui",game.Players.LocalPlayer.PlayerGui)
+local Gui = Instance.new("ScreenGui",game.CoreGui)
 local value = nil
 Gui.ResetOnSpawn = false
 Gui.IgnoreGuiInset = true
