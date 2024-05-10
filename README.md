@@ -1,7 +1,7 @@
 --# atom
 --Roblox-Atom notification-ui
 
---Atom loadstring : loadstring(game:HttpGet('https://raw.githubusercontent.com/JbefTeam/atom/main/source.lua'))()
+--Atom loadstring : ```loadstring(game:HttpGet('https://raw.githubusercontent.com/JbefTeam/atom/main/source.lua'))()```
 
 --How to send normal only-text non-interactive boring not skibidi notifications :
 
