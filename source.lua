@@ -217,7 +217,7 @@ function DoubleButtonText(text,button1text,button2text,call,call2)
 	local Closing = Instance.new("BoolValue",NotificationBar)
 
 	NotificationBar.Name = "NotificationBar"
-	NotificationBar.Parent = game.StarterGui.AtomNEW
+	NotificationBar.Parent = Atom
 	NotificationBar.AnchorPoint = Vector2.new(1, 1)
 	NotificationBar.BackgroundColor3 = Color3.fromRGB(29, 29, 29)
 	NotificationBar.BorderColor3 = Color3.fromRGB(0, 0, 0)
