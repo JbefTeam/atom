@@ -253,7 +253,7 @@ function DoubleButtonText(text,button1text,button2text,call,call2)
 	NotificationText.Position = UDim2.new(0.49799189, 0, 0.357421845, 0)
 	NotificationText.Size = UDim2.new(0.87550205, 0, 0.72265619, 0)
 	NotificationText.Font = Enum.Font.Gotham
-	NotificationText.Text = "NotificationText"
+	NotificationText.Text = text
 	NotificationText.TextColor3 = Color3.fromRGB(255, 255, 255)
 	NotificationText.TextSize = 34.000
 	NotificationText.TextWrapped = true
